@@ -1601,7 +1601,7 @@ const plugin = ({ widgets, simulator, vehicle }) => {
                       <img id="coverImg" src="https://firebasestorage.googleapis.com/v0/b/digital-auto.appspot.com/o/media%2Fcover.png?alt=media&token=acbb8797-01db-43b2-a153-082c9e386cf4" style="width:100%;height:47vw;position:absolute;top:0;left:0;z-index:1;">
                       <video class="bigBoxVideo" id="womanWalk" preload playsinline muted src='https://firebasestorage.googleapis.com/v0/b/digital-auto.appspot.com/o/media%2FWoman2Fast.MP4?alt=media&token=9b9dff78-cb86-4fd9-b14d-b8a8903369eb' style = "display:none;height:100%;width:100%;object-fit:contain;">
                       </video>
-                      <video class="bigBoxVideo" id="manWalk" preload playsinline muted src='http://127.0.0.1:5500/img/ManFast.mp4' style = "display:none;height:100%;width:100%;object-fit:contain;">
+                      <video class="bigBoxVideo" id="manWalk" preload playsinline muted src='https://media.digitalauto.tech/data/user_files/e25cc63a-2373-483b-b7b3-b20d22a640d0/0c4e93f7-fb99-4005-a3eb-61b2b3622a7fManFast.MP4' style = "display:none;height:100%;width:100%;object-fit:contain;">
                       </video>
                       <video class="bigBoxVideo" id="doorOpen" preload playsinline muted src='https://media.digitalauto.tech/data/user_files/2122e210-3e1c-43da-ac4e-424b6e7d8c90/6755e7a3-bc42-4b11-8925-df36c30d8678openDoor.mp4' style = "display:none;height:100%;width:100%;object-fit:contain;">
                       </video>
