@@ -1860,6 +1860,28 @@ const plugin = ({ widgets, simulator, vehicle }) => {
                               </td>
                           </tr>
                           <tr>
+                
+                           <td>
+                            <div class="row g-3 align-items-center">
+                            <div class="col-7">
+                                   <span class="float-start" style="margin-left:8px">
+                                       Drive Mode
+                                       </span>
+                               </div>
+                              <div class="col-5">
+                                        <select class="form-select form-select-sm float-end setting-checkbox-child driver-input-child" id="DriveModeSelect" style="font-size:1.5vw;background-size:1.5vw;padding:.375rem 1rem .375rem .75rem;background-position:right 0.25rem center;">
+                                          <option id="OptionECO" value="ECO">ECO</option>    
+                                          <option id="OptionSPO" value="SPO">SPO</option>
+                                          <option id="OptionCOM" value="COM">COM</option>
+                                          
+                                        </select>
+                                       </div>
+                                  </div>
+                           </td>
+                       </tr>
+  
+                       
+                          <tr>
                     
                               <td>
                                       <div class="row g-3 align-items-center">
@@ -2099,27 +2121,7 @@ const plugin = ({ widgets, simulator, vehicle }) => {
                               </div>
                            </td>
                        </tr>
-                       <tr>
-                
-                           <td>
-                            <div class="row g-3 align-items-center">
-                            <div class="col-7">
-                                   <span class="float-start" style="margin-left:8px">
-                                       Drive Mode
-                                       </span>
-                               </div>
-                              <div class="col-5">
-                                        <select class="form-select form-select-sm float-end setting-checkbox-child driver-input-child" id="DriveModeSelect" style="font-size:1.5vw;background-size:1.5vw;padding:.375rem 1rem .375rem .75rem;background-position:right 0.25rem center;">
-                                          <option id="OptionECO" value="ECO">ECO</option>    
-                                          <option id="OptionSPO" value="SPO">SPO</option>
-                                          <option id="OptionCOM" value="COM">COM</option>
-                                          
-                                        </select>
-                                       </div>
-                                  </div>
-                           </td>
-                       </tr>
-  
+                       
   
   
                       </tbody>
@@ -2972,7 +2974,7 @@ const plugin = ({ widgets, simulator, vehicle }) => {
       setOnePuddleDrive: function(){
   
         if(systemDictionary["OnePuddle"].val == "On"){
-          console.log("one puddle");
+          // console.log("one puddle");
           bigBoxModule.querySelector("#OnePuddleDriveImage").style.display = "inline-block";
         }
       },
